@@ -142,7 +142,6 @@ python run_server.py --port 8000
 본 프로젝트는 학습된 모델 가중치를 GitHub에 포함하지 않습니다.
 아래 링크에서 모델 파일을 다운로드한 후 지정된 경로에 배치해야 합니다.
 📁 **경로** : quote-origin-pipeline/QuoteMiningDetection/model_result/
-🔗 **모델 가중치 다운로드**  
 👉 https://drive.google.com/file/d/1Z2lMIgg8wdcLCBYrWVxng396cYzP75no/view?usp=sharing
 
 ⚠️ **주의:** 모델 파일이 존재하지 않을 경우 추론 단계에서 오류가 발생합니다.
