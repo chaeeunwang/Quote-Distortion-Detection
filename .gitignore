@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build outputs
+chrome_extension/dist/
+chrome_extension/build/
+
+# Model weights (too large for GitHub)
+QuoteMiningDetection/model_result/*.bin
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test files and scripts
+scripts/
+test_*.py
+*_test.py
+test*.py
+run_server_test.py
+analyze_quotes.py
+frontend_client.py
+generate_icons.py
+serve_article.py
+test_pattern.py
+test_api.py
+test_extension.py
+test_with_article.py
+
+# Personal/Team files
+2조/
+*.hwp
+*.html
+고려대_지능정보_SW아카데미*.hwp
+quote_distortion_demo.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
